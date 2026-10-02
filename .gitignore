@@ -1,0 +1,39 @@
+# Target / Maven output directory
+target/
+*.jar
+*.war
+*.ear
+*.rar
+
+# Uploaded Files & User Media
+uploads/
+/uploads
+*.pdf
+
+# Environment Files & Local Secrets
+.env
+.env.local
+*.env
+
+# IDE / Editor specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+logs/
+
+# Antigravity / Agent execution scratch files
+.agents/
